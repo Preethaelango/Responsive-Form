@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+::placeholder
+{
+	font-size: 16px;
+	padding-left: 5px;
+}
+.data
+{
+	display: flex;
+	margin: 80px;
+}
+.data .leftrow
+{
+	width: 40%;
+}
+.data .leftrow h6
+{
+	font-size: 17px;
+	color: skyblue;
+}
+.data .leftrow h1
+{
+	margin-top: 20px;
+	font-size: 35px;
+}
+.data .leftrow p
+{
+	width: 90%;
+	margin-top: 50px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.data .contact
+{
+	display: flex;
+	margin-top: 40px;
+}
+.data .contact .con1 i
+{
+	margin-top: 10px;
+	font-size: 40px;
+	color: white;
+	background-color: tomato;
+	padding: 10px;
+}
+.data .contact .con2
+{
+	margin: 10px 0px 0px 15px;
+}
+.data .contact	.con2 #h6
+{
+	color: black;
+	font-size: 16px;
+}
+.data .contact	.con2 h3
+{
+	color: tomato;
+	font-size: 30px;
+}
+.data .rightrow
+{
+	width: 60%;
+	background-color: #f5ebe0;
+}
+
+.data .rightrow .box
+{
+	margin-top: 40px;
+}
+
+.data .rightrow .box .input1 #name
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.data .rightrow .box .input1 #mail
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.data .rightrow .box .input2 #mobile
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	margin: 10px;
+}
+.data .rightrow .box .input2 .select1
+{
+	height: 55px;
+	width: 250px;
+	background-color: white;
+	border: 0px;
+	color: rgba(0, 0, 0, 0.7);
+	margin: 10px;
+}
+.data .rightrow .box .text #special
+{
+	height: 55px;
+	width: 522px;
+	background-color: white;
+	border: 0px;
+	margin: 10px 0px 0px 10px;
+}
+.data .rightrow .box button
+{
+	height: 55px;
+	width: 522px;
+	background-color: tomato;
+	border: 0px;
+	margin-top: 10px;
+	color:white;
+	font-size: 18px;
+}
+@media(max-width:900px)
+{
+	.data
+	{
+		flex-direction: column;
+	}
+	.data .leftrow
+	{
+		width: 100%;
+	}
+	.data .rightrow
+	{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.data .rightrow .box
+	{
+		height: 350px;
+	}
+}
+@media(max-width:600px)
+{
+	.data .leftrow
+	{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.data .rightrow
+	{
+		margin-left: 0px;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.data .rightrow .box
+	{
+		height: 500px;
+	}
+	.data	.rightrow .box .input1 #name
+	{
+		width: 200px;
+	}
+	.data	.rightrow .box .input1 #mail
+	{
+		width: 200px;
+	}
+	.data	.rightrow .box .input2 #mobile
+	{
+		width: 200px;
+	}
+	.data	.rightrow .box .input2 .select1
+	{
+		width: 200px;
+	}
+	.data .rightrow .box .text #special
+	{
+		width: 200px;
+	}
+	.data .rightrow .box button
+	{
+		width: 200px;
+	}
+	.data	.contact .con2 h3
+	{
+		font-size: 25px;
+	}
+}
